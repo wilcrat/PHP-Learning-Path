@@ -4,7 +4,8 @@ $x = 10.365;
 var_dump($x);
 echo "<br>";
 
-//array
-$cars = array("vol","tesla","marc");
-var_dump($cars);
+//objects
+//a data type which stores data and information on how to process that data.
+
+
 ?> 
