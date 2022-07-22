@@ -5,7 +5,8 @@ echo "<br>";
 echo str_word_count("Hello world! </br>"); // outputs 2 //returns no.of word 
 echo "<br>";
 
-echo strrev("Hello World");//reverses string
+echo strrev("Hello World");
+//reverses string
 echo "<br>";
 
 echo strpos("Hello world!", "world"); // outputs 6
