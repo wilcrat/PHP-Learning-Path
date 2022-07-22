@@ -4,7 +4,7 @@ $x = 10.365;
 var_dump($x);
 echo "<br>";
 
-//CONSTANTS
+//CONSTANTS //we use define
 define("GREETING","Welcome to Hyper");
 echo GREETING;
 ?> 
