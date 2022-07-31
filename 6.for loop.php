@@ -6,7 +6,7 @@ for($i=1;$i<=10;$i++){
 //forearch works only on arrays
 $names = array("Wilson","Json","Goodstein","Hart");
 foreach ($names as $value){
-    echo "$value <br>";
-    echo $names[1];
+    echo "$value <br> ";
+    echo $names[0];
 }
 ?>
