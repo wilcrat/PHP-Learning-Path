@@ -7,6 +7,6 @@ for($i=1;$i<=10;$i++){
 $names = array("Wilson","Json","Goodstein","Hart");
 foreach ($names as $value){
     echo "$value <br>";
-    echo "names[1]"
+    echo $names[1];
 }
 ?>
