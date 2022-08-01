@@ -13,7 +13,7 @@ for($x=0;$x<$arrlength;$x++){
 }
 
 //Associative Arrays
-//they use named keys that you assign to them.
+//they use named keys that you assign to them
 
 
 ?>
