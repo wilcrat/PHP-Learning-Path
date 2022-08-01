@@ -1,22 +1,8 @@
 <html>
 <body>
-<!-- PHP $_REQUEST is used to collect data after submitting an HTML form. -->
-<form method="post" action="<?php echo $_SERVER['PHP_SELF'];?>">
-Name: <input type="text" name="fname">
-<input type="submit">
-</form>
+<!-- PHP $_GET can also be used to collect form data after submitting an HTML form with method="get".
+$_GET can also collect data sent in the URL. -->
 
-<?php
-if ($_SERVER["REQUEST_METHOD"]=="POST"){
-    // collect value of input field
-    $name=$_POST['fname'];
-    if(empty($name)){
-        echo "Name is empty";
-    } else {
-        echo $name;
-    }
-}
-?>
 
 </body>
 </html>
