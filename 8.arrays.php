@@ -14,6 +14,6 @@ for($x=0;$x<$arrlength;$x++){
 
 //Associative Arrays
 //they use named keys that you assign to them
-
-
+$age = array("Peter"=>"35","Ben"=>"37", "Joe">="43");
+echo "Peter is " . $age['Peter'] . " year old <br>";
 ?>
