@@ -35,4 +35,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
   }
 }
 //this file will not run curretly
+//until I connect it
 ?>
