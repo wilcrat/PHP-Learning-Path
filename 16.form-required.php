@@ -34,4 +34,5 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $gender = test_input($_POST["gender"]);
   }
 }
+//this file will not run curretly
 ?>
