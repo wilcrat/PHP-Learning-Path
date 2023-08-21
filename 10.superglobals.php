@@ -23,8 +23,10 @@ addition();
 echo "$z <br>"; 
 
 //$_SERVER is a PHP super global variable which holds information about headers, paths, and script locations.
-echo $_SERVER['SCRIPT_FILENAME'];
-echo "<br>";
+function Details($filename,$userip){
+    echo "File name is $filename <br> User IP is $userip";
+}
+Details($_SERVER['SCRIPT_FILENAME'],$_SERVER['SERVER_ADDR']);
 
 //PHP $_REQUEST is used to collect data after submitting an HTML form.
 //see $_resuest.php 
